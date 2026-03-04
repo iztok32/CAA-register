@@ -1,0 +1,33 @@
+{
+    "common": {
+        "login": "Prijava",
+        "register": "Registracija",
+        "email": "E-pošta",
+        "password": "Geslo",
+        "confirmPassword": "Potrdi geslo",
+        "alreadyHaveAccount": "Že imate račun?",
+        "dontHaveAccount": "Še nimate računa?",
+        "signup": "Registracija",
+        "signin": "Prijava",
+        "back": "Nazaj",
+        "home": "Domov",
+        "acme": "Acme d.o.o.",
+        "welcome": "Dobrodošli",
+        "createAccount": "Ustvarite svoj račun",
+        "enterDetails": "Za ustvarjanje računa izpolnite spodnji obrazec",
+        "fullName": "Polno ime",
+        "fullNamePlaceholder": "Janez Novak",
+        "emailPlaceholder": "m@primer.com",
+        "emailDescription": "To bomo uporabili za stik z vami. Vaše e-pošte ne bomo delili z nikomer drugim.",
+        "passwordDescription": "Geslo mora biti dolgo vsaj 8 znakov.",
+        "confirmPasswordDescription": "Prosimo, potrdite svoje geslo.",
+        "orContinueWith": "Ali nadaljujte z",
+        "signupWithGithub": "Registracija z GitHubom",
+        "loginWithGithub": "Prijava z GitHubom",
+        "signInLink": "Prijava",
+        "loginTitle": "Prijava v vaš račun",
+        "loginDescription": "Spodaj vnesite svojo e-pošto za prijavo v vaš račun",
+        "forgotPassword": "Ste pozabili geslo?",
+        "signupLink": "Registracija"
+    }
+}

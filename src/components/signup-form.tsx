@@ -10,7 +10,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { useTranslation } from "react-i18next"
 
-export function LoginForm({
+export function SignupForm({
   className,
   ...props
 }: React.ComponentProps<"form">) {
@@ -20,29 +20,36 @@ export function LoginForm({
     <form className={cn("flex flex-col gap-6", className)} {...props}>
       <FieldGroup>
         <div className="flex flex-col items-center gap-1 text-center">
-          <h1 className="text-2xl font-bold">{t('common.loginTitle')}</h1>
+          <h1 className="text-2xl font-bold">{t('common.createAccount')}</h1>
           <p className="text-sm text-balance text-muted-foreground">
-            {t('common.loginDescription')}
+            {t('common.enterDetails')}
           </p>
         </div>
         <Field>
+          <FieldLabel htmlFor="name">{t('common.fullName')}</FieldLabel>
+          <Input id="name" type="text" placeholder={t('common.fullNamePlaceholder')} required />
+        </Field>
+        <Field>
           <FieldLabel htmlFor="email">{t('common.email')}</FieldLabel>
           <Input id="email" type="email" placeholder={t('common.emailPlaceholder')} required />
+          <FieldDescription>
+            {t('common.emailDescription')}
+          </FieldDescription>
         </Field>
         <Field>
-          <div className="flex items-center">
-            <FieldLabel htmlFor="password">{t('common.password')}</FieldLabel>
-            <a
-              href="#"
-              className="ml-auto text-sm underline-offset-4 hover:underline"
-            >
-              {t('common.forgotPassword')}
-            </a>
-          </div>
+          <FieldLabel htmlFor="password">{t('common.password')}</FieldLabel>
           <Input id="password" type="password" required />
+          <FieldDescription>
+            {t('common.passwordDescription')}
+          </FieldDescription>
         </Field>
         <Field>
-          <Button type="submit">{t('common.login')}</Button>
+          <FieldLabel htmlFor="confirm-password">{t('common.confirmPassword')}</FieldLabel>
+          <Input id="confirm-password" type="password" required />
+          <FieldDescription>{t('common.confirmPasswordDescription')}</FieldDescription>
+        </Field>
+        <Field>
+          <Button type="submit">{t('common.register')}</Button>
         </Field>
         <FieldSeparator>{t('common.orContinueWith')}</FieldSeparator>
         <Field>
@@ -53,13 +60,10 @@ export function LoginForm({
                 fill="currentColor"
               />
             </svg>
-            {t('common.loginWithGithub')}
+            {t('common.signupWithGithub')}
           </Button>
-          <FieldDescription className="text-center">
-            {t('common.dontHaveAccount')}{" "}
-            <a href="#" className="underline underline-offset-4">
-              {t('common.signupLink')}
-            </a>
+          <FieldDescription className="px-6 text-center">
+            {t('common.alreadyHaveAccount')} <a href="#">{t('common.signInLink')}</a>
           </FieldDescription>
         </Field>
       </FieldGroup>

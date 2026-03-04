@@ -1,0 +1,33 @@
+{
+    "common": {
+        "login": "Login",
+        "register": "Register",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "alreadyHaveAccount": "Already have an account?",
+        "dontHaveAccount": "Don't have an account?",
+        "signup": "Sign up",
+        "signin": "Sign in",
+        "back": "Back",
+        "home": "Home",
+        "acme": "Acme Inc.",
+        "welcome": "Welcome",
+        "createAccount": "Create your account",
+        "enterDetails": "Fill in the form below to create your account",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "John Doe",
+        "emailPlaceholder": "m@example.com",
+        "emailDescription": "We'll use this to contact you. We will not share your email with anyone else.",
+        "passwordDescription": "Must be at least 8 characters long.",
+        "confirmPasswordDescription": "Please confirm your password.",
+        "orContinueWith": "Or continue with",
+        "signupWithGithub": "Sign up with GitHub",
+        "loginWithGithub": "Login with GitHub",
+        "signInLink": "Sign in",
+        "loginTitle": "Login to your account",
+        "loginDescription": "Enter your email below to login to your account",
+        "forgotPassword": "Forgot your password?",
+        "signupLink": "Sign up"
+    }
+}
