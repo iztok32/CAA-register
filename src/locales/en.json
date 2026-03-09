@@ -28,6 +28,14 @@
         "loginTitle": "Login to your account",
         "loginDescription": "Enter your email below to login to your account",
         "forgotPassword": "Forgot your password?",
-        "signupLink": "Sign up"
+        "signupLink": "Sign up",
+        "forgotPasswordTitle": "Forgot Password?",
+        "forgotPasswordDescription": "Enter your email address and we'll send you a link to reset your password.",
+        "sendResetLink": "Send Reset Link",
+        "resetPasswordTitle": "Reset Password",
+        "resetPasswordDescription": "Enter a new password for your account.",
+        "resetPasswordButton": "Reset Password",
+        "confirmNewPassword": "Confirm new password",
+        "backToLogin": "Back to login"
     }
 }

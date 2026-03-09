@@ -28,6 +28,14 @@
         "loginTitle": "Prijava v vaš račun",
         "loginDescription": "Spodaj vnesite svojo e-pošto za prijavo v vaš račun",
         "forgotPassword": "Ste pozabili geslo?",
-        "signupLink": "Registracija"
+        "signupLink": "Registracija",
+        "forgotPasswordTitle": "Pozabili geslo?",
+        "forgotPasswordDescription": "Vnesite svoj e-poštni naslov in poslali vam bomo povezavo za ponastavitev gesla.",
+        "sendResetLink": "Pošlji povezavo",
+        "resetPasswordTitle": "Ponastavitev gesla",
+        "resetPasswordDescription": "Vnesite novo geslo za svoj račun.",
+        "resetPasswordButton": "Ponastavi geslo",
+        "confirmNewPassword": "Potrdi novo geslo",
+        "backToLogin": "Nazaj na prijavo"
     }
 }
