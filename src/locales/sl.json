@@ -36,6 +36,23 @@
         "resetPasswordDescription": "Vnesite novo geslo za svoj račun.",
         "resetPasswordButton": "Ponastavi geslo",
         "confirmNewPassword": "Potrdi novo geslo",
-        "backToLogin": "Nazaj na prijavo"
+        "backToLogin": "Nazaj na prijavo",
+        "landingHeroTitle": "Javni register zrakoplovov Republike Slovenije",
+        "landingHeroDesc": "Uradno orodje za dostop do informacij o registriranih zrakoplovih, njihovih lastnikih in statusu plovnosti.",
+        "exploreRegister": "Razišči register",
+        "features": "Funkcionalnosti",
+        "about": "O registru",
+        "contact": "Kontakt",
+        "portalTitle": "Portal CAA",
+        "getStarted": "Začni zdaj",
+        "footerSolutions": "Naše rešitve",
+        "footerLinks": "Uporabne povezave",
+        "footerAbout": "O podjetju RoLAN",
+        "footerCopyright": "RoLAN © 2026 | Vse pravice pridržane",
+        "footerLegal": "Splošni pogoji | družbena omrežja",
+        "footerAddress": "Jadranska cesta 27, 2000 Maribor, Slovenija",
+        "footerHours": "odprti: pon. - pet. od 7.00 do 16.00",
+        "footerPhone": "telefon: (02) 300 1 300",
+        "footerEmail": "mail: info@rolan.si"
     }
 }

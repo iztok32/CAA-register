@@ -1,20 +1,22 @@
-import { GalleryVerticalEnd } from "lucide-react"
+import { Plane } from "lucide-react"
 import { ResetPasswordForm } from "@/components/reset-password-form"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useTranslation } from "react-i18next"
 
 function ResetPasswordPage() {
-  const { t } = useTranslation();
+  useTranslation();
 
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
       <div className="flex flex-col gap-4 p-6 md:p-10">
         <div className="flex justify-between items-center gap-2 md:justify-start">
           <a href="/" className="flex items-center gap-2 font-medium">
-            <div className="flex size-6 items-center justify-center rounded-md bg-primary text-primary-foreground">
-              <GalleryVerticalEnd className="size-4" />
+            <div className="flex size-8 items-center justify-center rounded-md bg-[#007AB8] text-white">
+              <Plane className="size-5 fill-current" />
             </div>
-            {t('common.acme')}
+            <span className="text-xl font-bold tracking-tight text-[#007AB8]">
+              CAA<span className="text-[#58A618]">.si</span>
+            </span>
           </a>
           <div className="md:ml-auto">
             <LanguageSwitcher />
@@ -28,10 +30,11 @@ function ResetPasswordPage() {
       </div>
       <div className="relative hidden bg-muted lg:block">
         <img
-          src="/placeholder.svg"
-          alt="Image"
-          className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+          src="https://www.caa.si/upload/slider/slide9dce155bfe25846.jpg"
+          alt="Aviation background"
+          className="absolute inset-0 h-full w-full object-cover"
         />
+        <div className="absolute inset-0 bg-[#007AB8]/10" />
       </div>
     </div>
   )

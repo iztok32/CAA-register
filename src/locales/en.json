@@ -36,6 +36,23 @@
         "resetPasswordDescription": "Enter a new password for your account.",
         "resetPasswordButton": "Reset Password",
         "confirmNewPassword": "Confirm new password",
-        "backToLogin": "Back to login"
+        "backToLogin": "Back to login",
+        "landingHeroTitle": "Public Aircraft Register of Slovenia",
+        "landingHeroDesc": "Official tool for accessing information on registered aircraft, their owners, and airworthiness status.",
+        "exploreRegister": "Explore Register",
+        "features": "Features",
+        "about": "About",
+        "contact": "Contact",
+        "portalTitle": "CAA Portal",
+        "getStarted": "Get Started",
+        "footerSolutions": "Our Solutions",
+        "footerLinks": "Useful Links",
+        "footerAbout": "About RoLAN",
+        "footerCopyright": "RoLAN © 2026 | All rights reserved",
+        "footerLegal": "General Terms | Social Networks",
+        "footerAddress": "Jadranska cesta 27, 2000 Maribor, Slovenia",
+        "footerHours": "Open: Mon. - Fri. from 7:00 to 16:00",
+        "footerPhone": "Phone: (02) 300 1 300",
+        "footerEmail": "Email: info@rolan.si"
     }
 }
